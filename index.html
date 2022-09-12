@@ -12,8 +12,9 @@
     <title>VUE-HELLO</title>
 </head>
 <body>
+
     <div id="root">
-         <h1 :class="variation">{{text}}</h1>
+         <h1 :class="redBig">{{text}}</h1>
          <div class="flex">
           <img :src="image" alt="img/01.jpg">
           <img :src="image2" alt="img/02.jpg">
@@ -21,7 +22,10 @@
           <img :src="image4" alt="img/04.jpg">
           <img :src="image5" alt="img/05.jpg">
         </div>
-         <p :class="variation">{{image}}</p>
+         <p :class="redBig">{{image}}</p>
+         <p :class="blueBig">{{image2}}</p>
+         <p :class="greenBig">{{image3}}</p>
     </div>
+
 </body>
 </html>
