@@ -1,0 +1,22 @@
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+img{
+    width: 50%;
+}
+
+.red{
+    color: red;
+}
+
+.big{
+    font-size: 3rem;
+}
+
+.center{
+    text-align: center;
+}
