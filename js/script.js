@@ -12,8 +12,7 @@ const first = new Vue(
             image5: 'img/05.jpg',
             redBig: 'red big center',
             blueBig: 'blue big center',
-            greenBig: 'green big center'
-
+            greenBig: 'green big center',
         }
     }
 );
